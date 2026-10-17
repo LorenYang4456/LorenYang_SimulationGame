@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Sweet
   - Creature0
+  - Creature
+  - Meat
   layers:
   - Default
   - TransparentFX

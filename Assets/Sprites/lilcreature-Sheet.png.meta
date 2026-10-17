@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: f06a65366717b4172aa2cec9d07501bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7045873408272541662
+    second: lilcreature-Sheet_0
+  - first:
+      213: 6343643105074392910
+    second: lilcreature-Sheet_1
+  - first:
+      213: 7959288244511883142
+    second: lilcreature-Sheet_2
+  - first:
+      213: -4111847403829512068
+    second: lilcreature-Sheet_3
+  - first:
+      213: -432346749741638336
+    second: lilcreature-Sheet_4
+  - first:
+      213: 6201607667271657390
+    second: lilcreature-Sheet_5
+  - first:
+      213: -3236931278940635723
+    second: lilcreature-Sheet_6
+  - first:
+      213: 4976574747069166109
+    second: lilcreature-Sheet_7
+  - first:
+      213: 3329429062309900748
+    second: lilcreature-Sheet_8
+  - first:
+      213: 2089668984083783694
+    second: lilcreature-Sheet_9
+  - first:
+      213: -5134289266772891147
+    second: lilcreature-Sheet_10
+  - first:
+      213: -3289284541587153116
+    second: lilcreature-Sheet_11
+  - first:
+      213: 1652440827236437769
+    second: lilcreature-Sheet_12
+  - first:
+      213: 7294683782996787092
+    second: lilcreature-Sheet_13
+  - first:
+      213: 5780562787235350384
+    second: lilcreature-Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lilcreature-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2285b8f3777083e90800000000000000
+      internalID: -7045873408272541662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fa0d34bc5290850800000000000000
+      internalID: 6343643105074392910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fb21ffc72157e60800000000000000
+      internalID: 7959288244511883142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78312c5298cfe6c0800000000000000
+      internalID: -4111847403829512068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ddad9fbeefff9f0800000000000000
+      internalID: -432346749741638336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7e01cd059801650800000000000000
+      internalID: 6201607667271657390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3
+        width: 41
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd746cd62c1413d0800000000000000
+      internalID: -3236931278940635723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 3
+        width: 41
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12bc3d8d58501540800000000000000
+      internalID: 4976574747069166109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3
+        width: 41
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f7d39712843e20800000000000000
+      internalID: 3329429062309900748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0027769edefffc10800000000000000
+      internalID: 2089668984083783694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9a6ef4d175fb8b0800000000000000
+      internalID: -5134289266772891147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f9385032d1a52d0800000000000000
+      internalID: -3289284541587153116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fc7c76d26aee610800000000000000
+      internalID: 1652440827236437769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f7352704ceb3560800000000000000
+      internalID: 7294683782996787092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilcreature-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3
+        width: 41
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077410f6a3fa83050800000000000000
+      internalID: 5780562787235350384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c7cf731de0c64d43b8f406290b6f130
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lilcreature-Sheet_0: -7045873408272541662
+      lilcreature-Sheet_1: 6343643105074392910
+      lilcreature-Sheet_10: -5134289266772891147
+      lilcreature-Sheet_11: -3289284541587153116
+      lilcreature-Sheet_12: 1652440827236437769
+      lilcreature-Sheet_13: 7294683782996787092
+      lilcreature-Sheet_14: 5780562787235350384
+      lilcreature-Sheet_2: 7959288244511883142
+      lilcreature-Sheet_3: -4111847403829512068
+      lilcreature-Sheet_4: -432346749741638336
+      lilcreature-Sheet_5: 6201607667271657390
+      lilcreature-Sheet_6: -3236931278940635723
+      lilcreature-Sheet_7: 4976574747069166109
+      lilcreature-Sheet_8: 3329429062309900748
+      lilcreature-Sheet_9: 2089668984083783694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

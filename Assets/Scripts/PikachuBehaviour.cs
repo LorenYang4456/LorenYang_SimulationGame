@@ -4,6 +4,9 @@ public class PikachuBehaviour : MonoBehaviour
 {
     float fullnessVal = 2f;
     
+    Animator anim;
+    string currentAnim = "";
+    
     float needsTime;
     public float needsTimeReset;
     public float needsTimeStep;
@@ -19,25 +22,38 @@ public class PikachuBehaviour : MonoBehaviour
 
     SpriteRenderer sr;
     
-    public float reproduceTime = 10f; //creature 0 reproduce time
+    public float reproduceTime = 10f; //the time that creature0 need to split
     float notHungryTimer;
     
-    int creature0Count = 1;
-    int maxCreature0 = 10;
+    public int maxTotalCount = 7;
+    static int count;
+    
+    public GameObject creature1Prefab;
+    public float starveToTransformTime = 30f;
+    float starveTimer;
+    
+    
+    static void ResetStatics()
+    {
+        count = 0;
+    }
     
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        count++; //creature0 number count
         needsTime = needsTimeReset;
         sr = GetComponent<SpriteRenderer>();
-        UpdateSprite();
+        //UpdateSprite();
+        anim = GetComponent<Animator>(); 
     }
-
-    // Update is called once per frame
+    
     GameObject targetFood;
-
+    
+    
+// Update is called once per frame
     void Update()
     {
         //not hungry
@@ -72,9 +88,25 @@ public class PikachuBehaviour : MonoBehaviour
                 targetFood = null;
                 moving = false;
                 fullnessVal += 2f;
-                UpdateSprite();
+               // UpdateSprite();
             }
         }
+        
+        if (fullnessVal < 0) //between hungry to starving
+        {
+            starveTimer += Time.deltaTime;
+            if (starveTimer >= starveToTransformTime)
+            {
+                BecomeCreature1();
+                return;  
+            }
+        }
+        else
+        {
+            starveTimer = 0f; //if not in starving, then starve timer reset
+        }
+        
+        PlayAnim();
     }
     
     
@@ -82,7 +114,7 @@ public class PikachuBehaviour : MonoBehaviour
     void IncrementNeeds()
     {
         fullnessVal -= 1;
-        UpdateSprite();
+        //UpdateSprite();
         needsTime = needsTimeReset;
         Debug.Log(fullnessVal);
         if (fullnessVal < 0)
@@ -112,33 +144,57 @@ public class PikachuBehaviour : MonoBehaviour
         }
     }
     
-    void UpdateSprite()
-    {
-        if (fullnessVal >= 0)
-        {
-            sr.sprite = fullSprite;
-        }
-        else if (fullnessVal >= -5)
-        {
-            sr.sprite = hungrySprite;
-        }
-        else
-        {
-            sr.sprite = starvingSprite;
-        }
-    }
+    //void UpdateSprite()
+    //{
+        //if (fullnessVal >= 0)
+        //{
+           // sr.sprite = fullSprite;
+        //}
+        //else if (fullnessVal >= -5)
+        //{
+         //   sr.sprite = hungrySprite;
+        //}
+       // else
+       // {
+        //    sr.sprite = starvingSprite;
+       // }
+   // }
+   
+   void PlayAnim()
+   {
+       string animName;
+       if (fullnessVal >= 2) animName = "Creature0";
+       else if (fullnessVal >= 0) animName = "Creature0_Hungry";
+       else animName = "Creature0_Starving";
+
+       if (animName != currentAnim) //only change when state changes, otherwise the animation will stop in 1st frame
+       {
+           anim.Play(animName);
+           currentAnim = animName;
+       }
+   }
+   
     
     void Reproduce()
     {
-        if (creature0Count >= maxCreature0) return;
-        creature0Count++;
         
+        int total = GameObject.FindGameObjectsWithTag("Creature").Length;
+        if (total >= maxTotalCount) return;
+
+
         GameObject baby = Instantiate(gameObject, transform.position + (Vector3)Random.insideUnitCircle * 0.5f, Quaternion.identity);
-        PikachuBehaviour babyScript = baby.GetComponent<PikachuBehaviour>();
-        babyScript.fullnessVal = 2f; 
-        babyScript.notHungryTimer = 0f;
-        babyScript.moving = false;
-        babyScript.targetFood = null;
+            PikachuBehaviour babyScript = baby.GetComponent<PikachuBehaviour>();
+            babyScript.fullnessVal = 2f;
+            babyScript.notHungryTimer = 0f;
+            babyScript.moving = false;
+            babyScript.targetFood = null;
+        
+    }
+    
+    void BecomeCreature1()
+    {
+        Instantiate(creature1Prefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
    
 }
